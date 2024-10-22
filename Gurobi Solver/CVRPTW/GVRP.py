@@ -89,24 +89,27 @@ def add_constraints(model, x, u, t, num_locations, num_vehicles, demands, vehicl
         model.addConstr(t[i] >= time_windows[i][0])  # Time must be within start time
         model.addConstr(t[i] <= time_windows[i][1])  # Time must be within end time
 
-# Function to extract routes from the solution
+# Function to extract and print routes from the solution
 def extract_routes(model, x, num_locations, num_vehicles):
     routes = []
     for k in range(num_vehicles):
         route = []
         current_location = 0  # Start from the depot
         visited_locations = {current_location}
+        print(f"\nRoute for Vehicle {k + 1}:")  # Print the vehicle route header
         while True:
             for j in range(num_locations):
                 if x[current_location, j, k].X > 0.5 and j not in visited_locations:
                     route.append((current_location, j, k))
                     visited_locations.add(j)
+                    print(f"From {locations_df['name'].iloc[current_location]} to {locations_df['name'].iloc[j]}")
                     current_location = j
                     break
             else:
                 # Check if we need to return to the depot
                 if x[current_location, 0, k].X > 0.5:
                     route.append((current_location, 0, k))
+                    print(f"From {locations_df['name'].iloc[current_location]} back to {locations_df['name'].iloc[0]}")
                 break  # No more locations to visit
             if current_location == 0:
                 break  # Returned to depot
