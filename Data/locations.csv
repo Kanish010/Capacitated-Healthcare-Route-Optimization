@@ -1,18 +1,18 @@
 node_id,name,latitude,longitude,demand
 0,Vancouver General Hospital,49.2594,-123.1233,0  # Depot (demand is 0)
-1,Stanley Park,49.3043,-123.1443,10
-2,Granville Island,49.2712,-123.1336,8
-3,Canada Place,49.2893,-123.1119,12
-4,Science World,49.2763,-123.1261,15
-5,Vancouver City Hall,49.2819,-123.1171,9
-6,UBC,49.2606,-123.2460,7
-7,Gastown,49.2834,-123.1105,11
-8,Rogers Arena,49.2759,-123.1303,6
-9,BC Place Stadium,49.2742,-123.1215,14
-10,Vancouver Aquarium,49.3008,-123.1387,5
-11,Capilano Suspension Bridge,49.3423,-123.1144,7
-12,Museum of Anthropology,49.2601,-123.2469,4
-13,Queen Elizabeth Park,49.2341,-123.1162,10
-14,Lonsdale Quay,49.3164,-123.0646,9
-15,Robson Street,49.2878,-123.1207,8
-16,Pacific National Exhibition,49.2233,-123.0034,11
+1,Kitsilano,49.2683,-123.1682,18
+2,Point Grey,49.2614,-123.2293,15
+3,Mount Pleasant,49.2581,-123.1009,20
+4,South Cambie,49.2393,-123.1187,25
+5,Fairview,49.2643,-123.1266,15
+6,Dunbar-Southlands,49.2336,-123.1867,14
+7,Yaletown,49.2768,-123.1217,17
+8,Killarney,49.2206,-123.0584,12
+9,Renfrew-Collingwood,49.2403,-123.0406,22
+10,Shaughnessy,49.2496,-123.1384,10
+11,Arbutus Ridge,49.2516,-123.1665,13
+12,Kerrisdale,49.2348,-123.1553,9
+13,Marpole,49.2098,-123.1314,18
+14,North Vancouver (Lower Lonsdale),49.3137,-123.0721,15
+15,West End,49.2876,-123.1327,16
+16,Hastings-Sunrise,49.2765,-123.0347,21
