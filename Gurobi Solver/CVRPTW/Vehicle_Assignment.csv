@@ -1,0 +1,20 @@
+node_id,name,latitude,longitude,demand,Car_Number
+0,Vancouver General Hospital,49.2594,-123.1233,0  # Depot (demand is 0),1
+0,Vancouver General Hospital,49.2594,-123.1233,0  # Depot (demand is 0),2
+0,Vancouver General Hospital,49.2594,-123.1233,0  # Depot (demand is 0),3
+1,Kitsilano,49.2683,-123.1682,18,2
+2,Point Grey,49.2614,-123.2293,15,3
+3,Mount Pleasant,49.2581,-123.1009,20,3
+4,South Cambie,49.2393,-123.1187,25,2
+5,Fairview,49.2643,-123.1266,15,2
+6,Dunbar-Southlands,49.2336,-123.1867,14,1
+7,Yaletown,49.2768,-123.1217,17,1
+8,Killarney,49.2206,-123.0584,12,1
+9,Renfrew-Collingwood,49.2403,-123.0406,22,2
+10,Shaughnessy,49.2496,-123.1384,10,3
+11,Arbutus Ridge,49.2516,-123.1665,13,3
+12,Kerrisdale,49.2348,-123.1553,9,1
+13,Marpole,49.2098,-123.1314,18,2
+14,North Vancouver (Lower Lonsdale),49.3137,-123.0721,15,3
+15,West End,49.2876,-123.1327,16,1
+16,Hastings-Sunrise,49.2765,-123.0347,21,3

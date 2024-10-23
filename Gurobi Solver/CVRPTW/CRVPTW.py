@@ -146,8 +146,8 @@ def save_routes_as_csv(routes, locations_df):
     merged_df = locations_df.merge(locations_vehicles_df, on="name", how="left")
 
     # Save routes and vehicle assignments to CSV
-    merged_df.to_csv("Gurobi Solver/locations_with_vehicle_assignment.csv", index=False)
-    print("Optimal routes saved to 'locations_with_vehicle_assignment.csv'.")
+    merged_df.to_csv("Gurobi Solver/CVRPTW/Vehicle_Assignment.csv", index=False)
+    print("Optimal routes saved to 'Vehicle_Assignment.csv'.")
 
 # Function to plot routes on a Folium map
 def plot_routes_on_map(routes, locations_df):
@@ -171,8 +171,8 @@ def plot_routes_on_map(routes, locations_df):
             ).add_to(m)
 
     # Save the map to an HTML file
-    m.save("FoliumViz/gurobiviz_map.html")
-    print("Map saved to 'optimal_routes_map.html'.")
+    m.save("FoliumViz/CRVPTW.html")
+    print("Map saved to 'CVRPTW.html'.")
 
 # Function to plot routes using Matplotlib
 def plot_routes_matplotlib(routes, locations_df):
