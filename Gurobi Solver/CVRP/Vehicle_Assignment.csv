@@ -5,16 +5,16 @@ Vehicle,From,To,Latitude_From,Longitude_From,Latitude_To,Longitude_To
 1,Renfrew-Collingwood,Killarney,49.2403,-123.0406,49.2206,-123.0584
 1,Killarney,South Cambie,49.2206,-123.0584,49.2393,-123.1187
 1,South Cambie,Vancouver General Hospital,49.2393,-123.1187,49.2594,-123.1233
-2,Vancouver General Hospital,Marpole,49.2594,-123.1233,49.2098,-123.1314
-2,Marpole,Kerrisdale,49.2098,-123.1314,49.2348,-123.1553
-2,Kerrisdale,Dunbar-Southlands,49.2348,-123.1553,49.2336,-123.1867
-2,Dunbar-Southlands,Point Grey,49.2336,-123.1867,49.2614,-123.2293
-2,Point Grey,Kitsilano,49.2614,-123.2293,49.2683,-123.1682
-2,Kitsilano,Arbutus Ridge,49.2683,-123.1682,49.2516,-123.1665
-2,Arbutus Ridge,Shaughnessy,49.2516,-123.1665,49.2496,-123.1384
-2,Shaughnessy,Vancouver General Hospital,49.2496,-123.1384,49.2594,-123.1233
-3,Vancouver General Hospital,Mount Pleasant,49.2594,-123.1233,49.2581,-123.1009
-3,Mount Pleasant,Yaletown,49.2581,-123.1009,49.2768,-123.1217
-3,Yaletown,West End,49.2768,-123.1217,49.2876,-123.1327
-3,West End,Fairview,49.2876,-123.1327,49.2643,-123.1266
-3,Fairview,Vancouver General Hospital,49.2643,-123.1266,49.2594,-123.1233
+2,Vancouver General Hospital,Shaughnessy,49.2594,-123.1233,49.2496,-123.1384
+2,Shaughnessy,Arbutus Ridge,49.2496,-123.1384,49.2516,-123.1665
+2,Arbutus Ridge,Kitsilano,49.2516,-123.1665,49.2683,-123.1682
+2,Kitsilano,Point Grey,49.2683,-123.1682,49.2614,-123.2293
+2,Point Grey,Dunbar-Southlands,49.2614,-123.2293,49.2336,-123.1867
+2,Dunbar-Southlands,Kerrisdale,49.2336,-123.1867,49.2348,-123.1553
+2,Kerrisdale,Marpole,49.2348,-123.1553,49.2098,-123.1314
+2,Marpole,Vancouver General Hospital,49.2098,-123.1314,49.2594,-123.1233
+3,Vancouver General Hospital,Fairview,49.2594,-123.1233,49.2643,-123.1266
+3,Fairview,West End,49.2643,-123.1266,49.2876,-123.1327
+3,West End,Yaletown,49.2876,-123.1327,49.2768,-123.1217
+3,Yaletown,Mount Pleasant,49.2768,-123.1217,49.2581,-123.1009
+3,Mount Pleasant,Vancouver General Hospital,49.2581,-123.1009,49.2594,-123.1233
