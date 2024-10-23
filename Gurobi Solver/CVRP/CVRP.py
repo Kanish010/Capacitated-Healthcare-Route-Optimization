@@ -155,17 +155,25 @@ def save_routes_as_csv(routes, locations_df):
     route_df.to_csv("Gurobi Solver/CVRP/Vehicle_Assignment.csv", index=False)
     print("Optimal routes saved to 'Gurobi Solver/CVRP/Vehicle_Assignment.csv'.")
 
-# Function to plot routes on a Folium map with a legend for capacity usage
+# Function to plot routes on a Folium map with a legend for capacity usage and smaller markers
 def plot_routes_on_map(routes, locations_df, capacity_usage):
     # Create a folium map centered at the depot
     m = folium.Map(location=[locations_df['latitude'][0], locations_df['longitude'][0]], zoom_start=12)
 
-    # Plot the locations
-    for _, row in locations_df.iterrows():
-        folium.Marker([row['latitude'], row['longitude']], popup=row['name']).add_to(m)
-
     # Define colors for each vehicle
     colors = ['red', 'blue', 'green', 'purple', 'orange']
+
+    # Plot smaller circles at each location instead of the larger markers
+    for idx, row in locations_df.iterrows():
+        folium.CircleMarker(
+            location=[row['latitude'], row['longitude']],
+            radius=4,  # Smaller radius for less distraction
+            color='black',  # Border color
+            fill=True,
+            fill_color='white',  # Fill color
+            fill_opacity=0.7,
+            popup=row['name']
+        ).add_to(m)
 
     # Plot the routes with distinct colors for each vehicle
     for idx, route in enumerate(routes):
