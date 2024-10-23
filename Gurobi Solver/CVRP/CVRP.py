@@ -231,7 +231,7 @@ def plot_routes_matplotlib(routes, locations_df, capacity_usage):
 
 # Main function to run everything
 def main():
-    max_vehicles = 3  # Maximum vehicles allowed
+    max_vehicles = 6  # Maximum vehicles allowed
     depot = 0  # First location as the depot
     solve_vrp(len(locations_df), max_vehicles, demands, vehicle_capacity, distance_matrix, depot)
 
