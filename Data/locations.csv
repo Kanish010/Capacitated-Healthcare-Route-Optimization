@@ -1,18 +1,18 @@
 node_id,name,latitude,longitude,demand
-0,Vancouver General Hospital,49.2594,-123.1233,0  # Depot (demand is 0)
-1,Kitsilano,49.2683,-123.1682,18
-2,Point Grey,49.2614,-123.2293,15
-3,Mount Pleasant,49.2581,-123.1009,20
-4,South Cambie,49.2393,-123.1187,25
-5,Fairview,49.2643,-123.1266,15
-6,Dunbar-Southlands,49.2336,-123.1867,14
-7,Yaletown,49.2768,-123.1217,17
-8,Killarney,49.2206,-123.0584,12
-9,Renfrew-Collingwood,49.2403,-123.0406,22
-10,Shaughnessy,49.2496,-123.1384,10
-11,Arbutus Ridge,49.2516,-123.1665,13
-12,Kerrisdale,49.2348,-123.1553,9
-13,Marpole,49.2098,-123.1314,18
-14,North Vancouver (Lower Lonsdale),49.3137,-123.0721,15
-15,West End,49.2876,-123.1327,16
-16,Hastings-Sunrise,49.2765,-123.0347,21
+0,Vancouver General Hospital,49.2620,-123.1235,0  # Depot (demand is 0)
+1,West End,49.2864,-123.1384,18
+2,Kitsilano,49.2683,-123.1682,12
+3,Mount Pleasant,49.2606,-123.0988,15
+4,Marpole,49.2098,-123.1304,13
+5,Renfrew-Collingwood,49.2414,-123.0414,21
+6,Oakridge,49.2276,-123.1163,18
+7,Strathcona,49.2783,-123.0903,14
+8,Dunbar-Southlands,49.2348,-123.1867,13
+9,Hastings-Sunrise,49.2765,-123.0347,15
+10,Point Grey,49.2644,-123.2537,11
+11,UBC,49.2606,-123.2460,16
+12,South Cambie,49.2383,-123.1217,22
+13,Commercial Drive,49.2716,-123.0692,17
+14,East Vancouver,49.2657,-123.0547,10
+15,Gastown,49.2832,-123.1041,15
+16,Arbutus Ridge,49.2501,-123.1628,23
