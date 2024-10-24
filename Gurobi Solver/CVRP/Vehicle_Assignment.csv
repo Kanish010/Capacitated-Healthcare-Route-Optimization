@@ -1,20 +1,20 @@
 Vehicle,From,To,Latitude_From,Longitude_From,Latitude_To,Longitude_To
-1,Vancouver General Hospital,North Vancouver (Lower Lonsdale),49.2594,-123.1233,49.3137,-123.0721
-1,North Vancouver (Lower Lonsdale),Hastings-Sunrise,49.3137,-123.0721,49.2765,-123.0347
-1,Hastings-Sunrise,Renfrew-Collingwood,49.2765,-123.0347,49.2403,-123.0406
-1,Renfrew-Collingwood,Killarney,49.2403,-123.0406,49.2206,-123.0584
-1,Killarney,South Cambie,49.2206,-123.0584,49.2393,-123.1187
-1,South Cambie,Vancouver General Hospital,49.2393,-123.1187,49.2594,-123.1233
-2,Vancouver General Hospital,Shaughnessy,49.2594,-123.1233,49.2496,-123.1384
-2,Shaughnessy,Arbutus Ridge,49.2496,-123.1384,49.2516,-123.1665
-2,Arbutus Ridge,Kitsilano,49.2516,-123.1665,49.2683,-123.1682
-2,Kitsilano,Point Grey,49.2683,-123.1682,49.2614,-123.2293
-2,Point Grey,Dunbar-Southlands,49.2614,-123.2293,49.2336,-123.1867
-2,Dunbar-Southlands,Kerrisdale,49.2336,-123.1867,49.2348,-123.1553
-2,Kerrisdale,Marpole,49.2348,-123.1553,49.2098,-123.1314
-2,Marpole,Vancouver General Hospital,49.2098,-123.1314,49.2594,-123.1233
-3,Vancouver General Hospital,Fairview,49.2594,-123.1233,49.2643,-123.1266
-3,Fairview,West End,49.2643,-123.1266,49.2876,-123.1327
-3,West End,Yaletown,49.2876,-123.1327,49.2768,-123.1217
-3,Yaletown,Mount Pleasant,49.2768,-123.1217,49.2581,-123.1009
-3,Mount Pleasant,Vancouver General Hospital,49.2581,-123.1009,49.2594,-123.1233
+1,Vancouver General Hospital,South Cambie,49.262,-123.1235,49.2383,-123.1217
+1,South Cambie,Marpole,49.2383,-123.1217,49.2098,-123.1304
+1,Marpole,Oakridge,49.2098,-123.1304,49.2276,-123.1163
+1,Oakridge,Mount Pleasant,49.2276,-123.1163,49.2606,-123.0988
+1,Mount Pleasant,Vancouver General Hospital,49.2606,-123.0988,49.262,-123.1235
+2,Vancouver General Hospital,West End,49.262,-123.1235,49.2864,-123.1384
+2,West End,Kitsilano,49.2864,-123.1384,49.2683,-123.1682
+2,Kitsilano,Point Grey,49.2683,-123.1682,49.2644,-123.2537
+2,Point Grey,UBC,49.2644,-123.2537,49.2606,-123.246
+2,UBC,Dunbar-Southlands,49.2606,-123.246,49.2348,-123.1867
+2,Dunbar-Southlands,Arbutus Ridge,49.2348,-123.1867,49.2501,-123.1628
+2,Arbutus Ridge,Vancouver General Hospital,49.2501,-123.1628,49.262,-123.1235
+3,Vancouver General Hospital,Gastown,49.262,-123.1235,49.2832,-123.1041
+3,Gastown,Strathcona,49.2832,-123.1041,49.2783,-123.0903
+3,Strathcona,Commercial Drive,49.2783,-123.0903,49.2716,-123.0692
+3,Commercial Drive,East Vancouver,49.2716,-123.0692,49.2657,-123.0547
+3,East Vancouver,Hastings-Sunrise,49.2657,-123.0547,49.2765,-123.0347
+3,Hastings-Sunrise,Renfrew-Collingwood,49.2765,-123.0347,49.2414,-123.0414
+3,Renfrew-Collingwood,Vancouver General Hospital,49.2414,-123.0414,49.262,-123.1235

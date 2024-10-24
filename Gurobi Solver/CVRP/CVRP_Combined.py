@@ -206,8 +206,8 @@ def plot_routes_on_map(routes, locations_df, capacity_usage):
     m.get_root().html.add_child(folium.Element(legend_html))
 
     # Save the map to an HTML file
-    m.save("FoliumViz/CRVP.html")
-    print("Map saved to 'FoliumViz/CRVP.html'.")
+    m.save("FoliumViz/CVRP.html")
+    print("Map saved to 'FoliumViz/CVRP.html'.")
 
 # Function to plot routes using Matplotlib
 def plot_routes_matplotlib(routes, locations_df, capacity_usage):

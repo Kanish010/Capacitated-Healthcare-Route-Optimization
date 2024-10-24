@@ -1,20 +1,20 @@
-node_id,name,latitude,longitude,demand,Car_Number
-0,Vancouver General Hospital,49.2594,-123.1233,0  # Depot (demand is 0),1
-0,Vancouver General Hospital,49.2594,-123.1233,0  # Depot (demand is 0),2
-0,Vancouver General Hospital,49.2594,-123.1233,0  # Depot (demand is 0),3
-1,Kitsilano,49.2683,-123.1682,18,2
-2,Point Grey,49.2614,-123.2293,15,3
-3,Mount Pleasant,49.2581,-123.1009,20,3
-4,South Cambie,49.2393,-123.1187,25,2
-5,Fairview,49.2643,-123.1266,15,2
-6,Dunbar-Southlands,49.2336,-123.1867,14,1
-7,Yaletown,49.2768,-123.1217,17,1
-8,Killarney,49.2206,-123.0584,12,1
-9,Renfrew-Collingwood,49.2403,-123.0406,22,2
-10,Shaughnessy,49.2496,-123.1384,10,3
-11,Arbutus Ridge,49.2516,-123.1665,13,3
-12,Kerrisdale,49.2348,-123.1553,9,1
-13,Marpole,49.2098,-123.1314,18,2
-14,North Vancouver (Lower Lonsdale),49.3137,-123.0721,15,3
-15,West End,49.2876,-123.1327,16,1
-16,Hastings-Sunrise,49.2765,-123.0347,21,3
+Vehicle,From,To,Latitude_From,Longitude_From,Latitude_To,Longitude_To,Start_Time,End_Time
+1,Vancouver General Hospital,Oakridge,49.262,-123.1235,49.2276,-123.1163,12,15
+1,Oakridge,Gastown,49.2276,-123.1163,49.2832,-123.1041,10,13
+1,Gastown,Commercial Drive,49.2832,-123.1041,49.2716,-123.0692,11,15
+1,Commercial Drive,Renfrew-Collingwood,49.2716,-123.0692,49.2414,-123.0414,9,11
+1,Renfrew-Collingwood,Strathcona,49.2414,-123.0414,49.2783,-123.0903,11,16
+1,Strathcona,Hastings-Sunrise,49.2783,-123.0903,49.2765,-123.0347,9,12
+1,Hastings-Sunrise,Vancouver General Hospital,49.2765,-123.0347,49.262,-123.1235,0,8
+2,Vancouver General Hospital,Dunbar-Southlands,49.262,-123.1235,49.2348,-123.1867,10,13
+2,Dunbar-Southlands,West End,49.2348,-123.1867,49.2864,-123.1384,9,12
+2,West End,Marpole,49.2864,-123.1384,49.2098,-123.1304,10,12
+2,Marpole,Kitsilano,49.2098,-123.1304,49.2683,-123.1682,10,13
+2,Kitsilano,UBC,49.2683,-123.1682,49.2606,-123.246,12,17
+2,UBC,Vancouver General Hospital,49.2606,-123.246,49.262,-123.1235,0,8
+3,Vancouver General Hospital,Arbutus Ridge,49.262,-123.1235,49.2501,-123.1628,13,17
+3,Arbutus Ridge,South Cambie,49.2501,-123.1628,49.2383,-123.1217,9,11
+3,South Cambie,Mount Pleasant,49.2383,-123.1217,49.2606,-123.0988,11,14
+3,Mount Pleasant,Point Grey,49.2606,-123.0988,49.2644,-123.2537,13,16
+3,Point Grey,East Vancouver,49.2644,-123.2537,49.2657,-123.0547,9,12
+3,East Vancouver,Vancouver General Hospital,49.2657,-123.0547,49.262,-123.1235,0,8
