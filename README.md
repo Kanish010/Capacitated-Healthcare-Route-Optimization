@@ -65,5 +65,5 @@ Each script uses Gurobi to minimize the number of vehicles used and optimize the
 - Modify vehicle capacity, time windows, and maximum vehicle count as needed to fit specific use cases.
 
 ## License
-This project uses Gurobi for optimization, which requires a valid license. Check Gurobi’s [license documentation](https://www.gurobi.com/downloads/end-user-license-agreement-eula/) for more information.
+This project uses Gurobi for optimization, which requires a valid license. Check Gurobi’s license documentation for more information.
 
