@@ -12,7 +12,7 @@ fuel_consumption_rate = None
 refueling_rate = None
 velocity = None
 
-with open("evrptw_instances/r102C15.txt") as file:
+with open("evrptw_instances/c101C5.txt") as file:
     next(file)  # Skip header line
     for line in file:
         parts = line.split()
@@ -113,13 +113,22 @@ if model.status == GRB.OPTIMAL:
             if i != j and x[i, j].X > 0.5:
                 routes.append((nodes[i]['id'], nodes[j]['id']))
     
+    # Calculate the number of vehicles used
+    vehicles_used = 0
+    for i in range(1, n):
+        if x[0, i].X > 0.5:  # Count how many times a vehicle leaves the depot
+            vehicles_used += 1
+    
+    # Ensure at least 1 vehicle is counted if any route exists
+    if vehicles_used == 0 and len(routes) > 0:
+        vehicles_used = 1
+    
     # Format the output similar to Table 5
     total_distance = model.objVal
-    num_vehicles = len(set(route[0] for route in routes if route[0] == depot['id']))
-    num_recharges = len([node for node in nodes if node['id'].startswith('f')])
+    num_recharges = len([route for route in routes if route[1].startswith('f')])
     
     print("Optimal Solution Summary:")
-    print(f"Number of Vehicles Used: {num_vehicles}")
+    print(f"Number of Vehicles Used: {vehicles_used}")
     print(f"Total Distance Traveled: {total_distance}")
     print(f"Number of Recharges: {num_recharges}")
     print("Routes:")
