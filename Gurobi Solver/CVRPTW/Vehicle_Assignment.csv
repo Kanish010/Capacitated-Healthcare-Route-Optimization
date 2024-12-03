@@ -1,20 +1,82 @@
 Vehicle,From,To,Latitude_From,Longitude_From,Latitude_To,Longitude_To,Start_Time,End_Time
-1,Vancouver General Hospital,Oakridge,49.262,-123.1235,49.2276,-123.1163,12,15
-1,Oakridge,Gastown,49.2276,-123.1163,49.2832,-123.1041,10,13
-1,Gastown,Commercial Drive,49.2832,-123.1041,49.2716,-123.0692,11,15
-1,Commercial Drive,Renfrew-Collingwood,49.2716,-123.0692,49.2414,-123.0414,9,11
-1,Renfrew-Collingwood,Strathcona,49.2414,-123.0414,49.2783,-123.0903,11,16
-1,Strathcona,Hastings-Sunrise,49.2783,-123.0903,49.2765,-123.0347,9,12
-1,Hastings-Sunrise,Vancouver General Hospital,49.2765,-123.0347,49.262,-123.1235,0,8
-2,Vancouver General Hospital,Dunbar-Southlands,49.262,-123.1235,49.2348,-123.1867,10,13
-2,Dunbar-Southlands,West End,49.2348,-123.1867,49.2864,-123.1384,9,12
-2,West End,Marpole,49.2864,-123.1384,49.2098,-123.1304,10,12
-2,Marpole,Kitsilano,49.2098,-123.1304,49.2683,-123.1682,10,13
-2,Kitsilano,UBC,49.2683,-123.1682,49.2606,-123.246,12,17
-2,UBC,Vancouver General Hospital,49.2606,-123.246,49.262,-123.1235,0,8
-3,Vancouver General Hospital,Arbutus Ridge,49.262,-123.1235,49.2501,-123.1628,13,17
-3,Arbutus Ridge,South Cambie,49.2501,-123.1628,49.2383,-123.1217,9,11
-3,South Cambie,Mount Pleasant,49.2383,-123.1217,49.2606,-123.0988,11,14
-3,Mount Pleasant,Point Grey,49.2606,-123.0988,49.2644,-123.2537,13,16
-3,Point Grey,East Vancouver,49.2644,-123.2537,49.2657,-123.0547,9,12
-3,East Vancouver,Vancouver General Hospital,49.2657,-123.0547,49.262,-123.1235,0,8
+1,Vancouver General Hospital,Tsawwassen,49.262,-123.1235,49.0121,-123.0834,9,12
+1,Tsawwassen,South Burnaby,49.0121,-123.0834,49.2269,-122.9883,10,13
+1,South Burnaby,Boundary Road,49.2269,-122.9883,49.2485,-123.0311,10,13
+1,Boundary Road,New Westminster,49.2485,-123.0311,49.2057,-122.911,9,11
+1,New Westminster,Cedar Cottage,49.2057,-122.911,49.2491,-123.0704,10,12
+1,Cedar Cottage,Vancouver General Hospital,49.2491,-123.0704,49.262,-123.1235,0,8
+2,Vancouver General Hospital,West Vancouver,49.262,-123.1235,49.3287,-123.155,12,16
+2,West Vancouver,Sea Island,49.3287,-123.155,49.1934,-123.1792,10,13
+2,Sea Island,Oakridge,49.1934,-123.1792,49.2276,-123.1163,12,15
+2,Oakridge,Richmond Centre,49.2276,-123.1163,49.1666,-123.1361,11,14
+2,Richmond Centre,Kerrisdale,49.1666,-123.1361,49.2342,-123.1552,10,13
+2,Kerrisdale,South Granville,49.2342,-123.1552,49.2485,-123.1394,11,14
+2,South Granville,Vancouver General Hospital,49.2485,-123.1394,49.262,-123.1235,0,8
+3,Vancouver General Hospital,Shaughnessy,49.262,-123.1235,49.2447,-123.1427,11,15
+3,Shaughnessy,Champlain Heights,49.2447,-123.1427,49.2223,-123.0437,11,16
+3,Champlain Heights,Horseshoe Bay,49.2223,-123.0437,49.3786,-123.2714,11,15
+3,Horseshoe Bay,Dunbar-Southlands,49.3786,-123.2714,49.2348,-123.1867,10,13
+3,Dunbar-Southlands,Fraserhood,49.2348,-123.1867,49.2507,-123.0855,12,16
+3,Fraserhood,Riley Park,49.2507,-123.0855,49.244,-123.1034,9,12
+3,Riley Park,Vancouver General Hospital,49.244,-123.1034,49.262,-123.1235,0,8
+4,Vancouver General Hospital,Arbutus Ridge,49.262,-123.1235,49.2501,-123.1628,13,17
+4,Arbutus Ridge,Marpole South,49.2501,-123.1628,49.2072,-123.1324,10,13
+4,Marpole South,Kitsilano,49.2072,-123.1324,49.2683,-123.1682,10,13
+4,Kitsilano,Marpole,49.2683,-123.1682,49.2098,-123.1304,10,12
+4,Marpole,East Vancouver,49.2098,-123.1304,49.2657,-123.0547,9,12
+4,East Vancouver,Lougheed,49.2657,-123.0547,49.2513,-122.9182,12,16
+4,Lougheed,Vancouver General Hospital,49.2513,-122.9182,49.262,-123.1235,0,8
+5,Vancouver General Hospital,Killarney,49.262,-123.1235,49.2191,-123.0487,9,11
+5,Killarney,Oakridge West,49.2191,-123.0487,49.229,-123.1184,10,13
+5,Oakridge West,Fraserview,49.229,-123.1184,49.2317,-123.0629,12,15
+5,Fraserview,Sunset,49.2317,-123.0629,49.2251,-123.1007,11,14
+5,Sunset,Steveston,49.2251,-123.1007,49.1248,-123.1859,12,16
+5,Steveston,Fairview,49.1248,-123.1859,49.2624,-123.1268,10,13
+5,Fairview,Vancouver General Hospital,49.2624,-123.1268,49.262,-123.1235,0,8
+6,Vancouver General Hospital,Hastings-Sunrise,49.262,-123.1235,49.2765,-123.0347,9,12
+6,Hastings-Sunrise,Strathcona,49.2765,-123.0347,49.2783,-123.0903,11,16
+6,Strathcona,Metrotown,49.2783,-123.0903,49.2276,-123.0068,11,15
+6,Metrotown,Coal Harbour,49.2276,-123.0068,49.2914,-123.1216,9,12
+6,Coal Harbour,West Point Grey,49.2914,-123.1216,49.2667,-123.2175,13,16
+6,West Point Grey,Sapperton,49.2667,-123.2175,49.2241,-122.8892,10,14
+6,Sapperton,Vancouver General Hospital,49.2241,-122.8892,49.262,-123.1235,0,8
+7,Vancouver General Hospital,Queensborough,49.262,-123.1235,49.1958,-122.9382,10,13
+7,Queensborough,West Hastings,49.1958,-122.9382,49.2845,-123.1121,12,16
+7,West Hastings,Burnaby Heights,49.2845,-123.1121,49.2781,-123.0125,9,11
+7,Burnaby Heights,Grandview-Woodland,49.2781,-123.0125,49.2719,-123.0651,9,11
+7,Grandview-Woodland,Mount Pleasant,49.2719,-123.0651,49.2606,-123.0988,11,14
+7,Mount Pleasant,Vancouver General Hospital,49.2606,-123.0988,49.262,-123.1235,0,8
+8,Vancouver General Hospital,Kingsway,49.262,-123.1235,49.2505,-123.0802,11,15
+8,Kingsway,Downtown,49.2505,-123.0802,49.2831,-123.1198,10,14
+8,Downtown,South Cambie,49.2831,-123.1198,49.2383,-123.1217,9,11
+8,South Cambie,Ambleside,49.2383,-123.1217,49.3282,-123.1587,10,13
+8,Ambleside,Little Mountain,49.3282,-123.1587,49.2419,-123.1163,10,13
+8,Little Mountain,Southlands,49.2419,-123.1163,49.2174,-123.1928,10,14
+8,Southlands,Vancouver General Hospital,49.2174,-123.1928,49.262,-123.1235,0,8
+9,Vancouver General Hospital,Brentwood,49.262,-123.1235,49.265,-123.0004,9,12
+9,Brentwood,Hastings North,49.265,-123.0004,49.2817,-123.0444,9,12
+9,Hastings North,Delta,49.2817,-123.0444,49.0847,-123.0591,10,14
+9,Delta,Kensington,49.0847,-123.0591,49.2365,-123.0712,9,12
+9,Kensington,Renfrew Heights,49.2365,-123.0712,49.2373,-123.0495,10,14
+9,Renfrew Heights,Yaletown,49.2373,-123.0495,49.2752,-123.1213,10,14
+9,Yaletown,Vancouver General Hospital,49.2752,-123.1213,49.262,-123.1235,0,8
+10,Vancouver General Hospital,Renfrew-Collingwood,49.262,-123.1235,49.2414,-123.0414,9,11
+10,Renfrew-Collingwood,Surrey Central,49.2414,-123.0414,49.1913,-122.849,11,15
+10,Surrey Central,Cambie Village,49.1913,-122.849,49.2565,-123.1168,12,15
+10,Cambie Village,False Creek,49.2565,-123.1168,49.2672,-123.1238,12,16
+10,False Creek,Broadway Corridor,49.2672,-123.1238,49.2623,-123.1255,11,15
+10,Broadway Corridor,Vancouver General Hospital,49.2623,-123.1255,49.262,-123.1235,0,8
+11,Vancouver General Hospital,White Rock,49.262,-123.1235,49.0253,-122.8024,12,16
+11,White Rock,Commercial Drive,49.0253,-122.8024,49.2716,-123.0692,11,15
+11,Commercial Drive,Olympic Village,49.2716,-123.0692,49.2708,-123.1136,11,15
+11,Olympic Village,Point Grey,49.2708,-123.1136,49.2644,-123.2537,13,16
+11,Point Grey,North Vancouver,49.2644,-123.2537,49.3208,-123.0726,9,12
+11,North Vancouver,Lynn Valley,49.3208,-123.0726,49.3454,-123.0332,10,13
+11,Lynn Valley,Vancouver General Hospital,49.3454,-123.0332,49.262,-123.1235,0,8
+12,Vancouver General Hospital,Gastown,49.262,-123.1235,49.2832,-123.1041,10,13
+12,Gastown,West End,49.2832,-123.1041,49.2864,-123.1384,9,12
+12,West End,UBC,49.2864,-123.1384,49.2606,-123.246,12,17
+12,UBC,Deep Cove,49.2606,-123.246,49.3262,-122.9493,10,14
+12,Deep Cove,Central Vancouver,49.3262,-122.9493,49.2648,-123.1008,9,12
+12,Central Vancouver,Victoria-Fraserview,49.2648,-123.1008,49.2198,-123.0655,9,12
+12,Victoria-Fraserview,Vancouver General Hospital,49.2198,-123.0655,49.262,-123.1235,0,8
