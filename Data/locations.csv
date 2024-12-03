@@ -1,5 +1,5 @@
 node_id,name,latitude,longitude,demand
-0,Vancouver General Hospital,49.2620,-123.1235,0  # Depot (demand is 0)
+0,Vancouver General Hospital,49.2620,-123.1235,0
 1,West End,49.2864,-123.1384,18
 2,Kitsilano,49.2683,-123.1682,12
 3,Mount Pleasant,49.2606,-123.0988,15
@@ -16,3 +16,56 @@ node_id,name,latitude,longitude,demand
 14,East Vancouver,49.2657,-123.0547,10
 15,Gastown,49.2832,-123.1041,15
 16,Arbutus Ridge,49.2501,-123.1628,23
+17,Coal Harbour,49.2914,-123.1216,12
+18,Yaletown,49.2752,-123.1213,14
+19,False Creek,49.2672,-123.1238,16
+20,Shaughnessy,49.2447,-123.1427,19
+21,Kerrisdale,49.2342,-123.1552,13
+22,Grandview-Woodland,49.2719,-123.0651,18
+23,South Granville,49.2485,-123.1394,11
+24,Cambie Village,49.2565,-123.1168,17
+25,Fairview,49.2624,-123.1268,20
+26,Riley Park,49.2440,-123.1034,15
+27,Oakridge West,49.2290,-123.1184,14
+28,Kingsway,49.2505,-123.0802,16
+29,Victoria-Fraserview,49.2198,-123.0655,17
+30,Southlands,49.2174,-123.1928,18
+31,Champlain Heights,49.2223,-123.0437,19
+32,Fraserview,49.2317,-123.0629,14
+33,Cedar Cottage,49.2491,-123.0704,13
+34,Killarney,49.2191,-123.0487,16
+35,Sunset,49.2251,-123.1007,15
+36,Fraserhood,49.2507,-123.0855,20
+37,Little Mountain,49.2419,-123.1163,14
+38,Hastings North,49.2817,-123.0444,18
+39,West Point Grey,49.2667,-123.2175,17
+40,Downtown,49.2831,-123.1198,12
+41,Broadway Corridor,49.2623,-123.1255,19
+42,Kensington,49.2365,-123.0712,18
+43,Marpole South,49.2072,-123.1324,20
+44,West Hastings,49.2845,-123.1121,14
+45,Olympic Village,49.2708,-123.1136,16
+46,Central Vancouver,49.2648,-123.1008,18
+47,Boundary Road,49.2485,-123.0311,15
+48,Burnaby Heights,49.2781,-123.0125,20
+49,Renfrew Heights,49.2373,-123.0495,16
+50,South Burnaby,49.2269,-122.9883,17
+51,Metrotown,49.2276,-123.0068,20
+52,Brentwood,49.2650,-123.0004,19
+53,Lougheed,49.2513,-122.9182,16
+54,Sapperton,49.2241,-122.8892,18
+55,New Westminster,49.2057,-122.9110,17
+56,Queensborough,49.1958,-122.9382,15
+57,Richmond Centre,49.1666,-123.1361,19
+58,Steveston,49.1248,-123.1859,20
+59,Sea Island,49.1934,-123.1792,18
+60,Tsawwassen,49.0121,-123.0834,16
+61,Delta,49.0847,-123.0591,14
+62,Surrey Central,49.1913,-122.8490,19
+63,White Rock,49.0253,-122.8024,20
+64,Lynn Valley,49.3454,-123.0332,15
+65,North Vancouver,49.3208,-123.0726,18
+66,Deep Cove,49.3262,-122.9493,16
+67,Horseshoe Bay,49.3786,-123.2714,12
+68,West Vancouver,49.3287,-123.1550,14
+69,Ambleside,49.3282,-123.1587,15
